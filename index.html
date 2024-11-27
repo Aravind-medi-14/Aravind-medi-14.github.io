@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="AM.png" sizes="64x64" />
     <title>Portfolio</title>
-</head>
-<body>
-    <h1>Aravind Medi</h1>
-</body>
+    <style>
+      * {
+        margin: 0px;
+      }
+      .container {
+        background-color: rgb(202, 201, 201);
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        font-size: large;
+        background-color: #87ceeb;
+
+        padding-right: 50px;
+      }
+      .logo {
+        display: flex;
+      }
+      .logo img {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+      }
+      .Home img {
+        width: 500px;
+        height: 500px;
+        padding-right: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .Home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px;
+      }
+      .Home h1 {
+        text-align: center;
+        padding-left: 200px;
+      }
+      span {
+        color: rgb(39, 163, 240);
+      }
+      li {
+        display: inline-block;
+        padding: 20px;
+        font-size: large;
+        font-weight: 600;
+        padding-top: 25px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      h1 {
+        padding: 10px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header section -->
+      <div class="header">
+        <div class="logo">
+          <img src="/Am-1.png" alt="name-logo" />
+          <h1>Aravind Medi</h1>
+        </div>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- MAIN section -->
+      <div class="Home">
+        <div class="intro">
+          <h1>Hey... Hi !! I Am <span>Aravind</span></h1>
+        </div>
+        <img src="/Aravind1.jpg" alt="pic" />
+      </div>
+    </div>
+  </body>
 </html>
