@@ -4,68 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="AM.png" sizes="64x64" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Portfolio</title>
-    <style>
-      * {
-        margin: 0px;
-      }
-      .container {
-        background-color: rgb(202, 201, 201);
-      }
-      .header {
-        display: flex;
-        justify-content: space-between;
-        font-size: large;
-        background-color: #87ceeb;
-
-        padding-right: 50px;
-      }
-      .logo {
-        display: flex;
-      }
-      .logo img {
-        width: 50px;
-        height: 50px;
-        padding: 10px;
-      }
-      .Home img {
-        width: 500px;
-        height: 500px;
-        padding-right: 100px;
-        border-radius: 50%;
-        object-fit: cover;
-      }
-      .Home {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 50px;
-      }
-      .Home h1 {
-        text-align: center;
-        padding-left: 200px;
-      }
-      span {
-        color: rgb(39, 163, 240);
-      }
-      li {
-        display: inline-block;
-        padding: 20px;
-        font-size: large;
-        font-weight: 600;
-        padding-top: 25px;
-      }
-      a {
-        text-decoration: none;
-        color: black;
-      }
-      h1 {
-        padding: 10px;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
   </head>
   <body>
     <div class="container">
@@ -75,7 +15,7 @@
           <img src="/Am-1.png" alt="name-logo" />
           <h1>Aravind Medi</h1>
         </div>
-        <div>
+        <div class="headbtns">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -86,11 +26,42 @@
         </div>
       </div>
       <!-- MAIN section -->
-      <div class="Home">
+      <div class="main">
         <div class="intro">
-          <h1>Hey... Hi !! I Am <span>Aravind</span></h1>
+          <h1>
+            Hello !
+            <p>I Am</p>
+            <span>Aravind</span>
+            <p>Full Stack Developer</p>
+          </h1>
         </div>
-        <!--<img src="/Aravind1.jpg" alt="pic" /> -->
+        <img src="/Aravind1.jpg" alt="pic" />
+      </div>
+
+      <div class="projects-section">
+        <div class="box">
+          <div class="store_image">
+            <img src="/Online Store Interface.png" alt="online store img" />
+          </div>
+          <h2>Online Store</h2>
+          <p>This is the Online Store with less Functionalities</p>
+          <div class="btns">
+            <p>
+              <button><a href="https://aravind-medi-14.github.io/Online-Store/">View Project</a></button>
+            </p>
+            <p>
+              <button><a href="https://github.com/Aravind-medi-14/Online-Store">View Github</a></button>
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <h2>My Bank</h2>
+          <p>This is Bank Porject where user can Deposit,Withdraw, Money</p>
+        </div>
+        <div class="box">
+          <h2>My Store</h2>
+          <p>This is the Online Store with more Functionalities</p>
+        </div>
       </div>
     </div>
   </body>
