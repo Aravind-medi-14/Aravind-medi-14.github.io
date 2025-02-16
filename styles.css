@@ -3,15 +3,20 @@
 }
 .container {
   background-color: rgb(202, 201, 201);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-0%, -0%);
+  width: 100%;
 }
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: large;
   background-color: #87ceeb;
-  padding-right: 100px;
   width: 100%;
-
+  flex-wrap: wrap;
   position: fixed;
 }
 .logo {
@@ -32,8 +37,10 @@
 .main {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 50px;
+  text-align: center;
+  flex-wrap: wrap;
 }
 .main h1 {
   text-align: center;
@@ -49,6 +56,7 @@ li {
   font-weight: 600;
   padding-top: 25px;
 }
+
 .headbtns a {
   text-decoration: none;
   color: black;
@@ -63,9 +71,10 @@ h1 {
   background-color: silver;
   align-items: center;
   width: 100%;
+  position: absolute;
   height: 600px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .box {
   background-color: rgb(212, 208, 208);
