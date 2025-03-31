@@ -20,6 +20,17 @@
   padding: 10% 5%;
 }
 
+.about-row {
+  background-color: rgb(187, 185, 185);
+  padding: 10% 5%;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.skills-row {
+  background-color: rgb(187, 185, 185);
+  padding: 10%;
+}
 
 span {
   color: rgb(39, 163, 240);
