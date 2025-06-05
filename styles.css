@@ -99,3 +99,68 @@ h1 {
   color: white;
   text-decoration: none;
 }
+
+/* contact style */
+
+.contact-section {
+  background: silver;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#contact-row {
+  background: silver;
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.contact-section .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-section label {
+  display: block;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-section textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.contact-section button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: #45a049;
+}
+
+.response-message {
+  text-align: center;
+  margin-top: 10px;
+}
